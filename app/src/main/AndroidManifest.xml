@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.shakecolor1101">
+//如果連接像網路就是在uses-permission選擇
 
     <application
         android:allowBackup="true"
@@ -16,6 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+//18在application裡面,activity下:加service
+        <service android:name=".ShakeService" />
+        //系統服務
     </application>
 
 </manifest>

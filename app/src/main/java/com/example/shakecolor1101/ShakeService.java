@@ -22,7 +22,7 @@ import java.util.Random;
 public class ShakeService extends Service implements SensorEventListener {
 //7在類別裡按右鍵產生OverrideMethods,選onStartCommand
 
-    //8宣告(5)
+//8宣告(5)
     private SensorManager mSensorManager;//控制感應器
     private Sensor mAccelerometer;//加速度感應器
     private float mAccel; //除重力外的加速度
@@ -80,7 +80,7 @@ public class ShakeService extends Service implements SensorEventListener {
 
         }
     }
-    //15回MainActivity啟動服務
+//15回MainActivity啟動服務
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
         //加速
